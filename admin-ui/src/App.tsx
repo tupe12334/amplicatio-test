@@ -46,7 +46,7 @@ const App = (): React.ReactElement => {
       <Admin
         title={"Sample app"}
         dataProvider={dataProvider}
-        authProvider={authProvider}
+        authProvider={"jwt"}
         theme={theme}
         dashboard={Dashboard}
         loginPage={Login}
