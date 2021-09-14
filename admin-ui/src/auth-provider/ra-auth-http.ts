@@ -4,13 +4,7 @@ import {
   CREDENTIALS_LOCAL_STORAGE_ITEM,
   USER_DATA_LOCAL_STORAGE_ITEM,
 } from "../constants";
-import { Credentials } from "../types";
-
-type TData = {
-  login: {
-    username: string;
-  };
-};
+import { Credentials, TData } from "../types";
 
 const LOGIN = gql`
   mutation login($username: String!, $password: String!) {
@@ -21,7 +15,7 @@ const LOGIN = gql`
   }
 `;
 
-export const authProvider: AuthProvider = {
+export const httpAuthProvider: AuthProvider = {
   login: async (credentials: Credentials) => {
     const apolloClient = new ApolloClient({
       uri: "/graphql",
@@ -79,7 +73,6 @@ export const authProvider: AuthProvider = {
     });
   },
 };
-export default authProvider;
 
 function createBasicAuthorizationHeader(
   username: string,
