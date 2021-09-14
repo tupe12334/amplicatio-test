@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Admin, AuthProvider, DataProvider, Resource } from "react-admin";
+import { Admin, DataProvider, Resource } from "react-admin";
 import buildGraphQLProvider from "./data-provider/graphqlDataProvider";
 import { theme } from "./theme/theme";
 import Login from "./Login";
