@@ -92,8 +92,6 @@ export class OrderControllerBase {
             id: true,
           },
         },
-
-        test: true,
       },
     });
   }
@@ -149,8 +147,6 @@ export class OrderControllerBase {
             id: true,
           },
         },
-
-        test: true,
       },
     });
     return results.map((result) => permission.filter(result));
@@ -201,8 +197,6 @@ export class OrderControllerBase {
             id: true,
           },
         },
-
-        test: true,
       },
     });
     if (result === null) {
@@ -288,8 +282,6 @@ export class OrderControllerBase {
               id: true,
             },
           },
-
-          test: true,
         },
       });
     } catch (error) {
@@ -341,8 +333,6 @@ export class OrderControllerBase {
               id: true,
             },
           },
-
-          test: true,
         },
       });
     } catch (error) {

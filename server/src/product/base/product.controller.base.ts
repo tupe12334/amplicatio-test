@@ -308,8 +308,6 @@ export class ProductControllerBase {
             id: true,
           },
         },
-
-        test: true,
       },
     });
     return results.map((result) => permission.filter(result));

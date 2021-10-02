@@ -37,7 +37,6 @@ export const OrderList = (props: ListProps): React.ReactElement => {
         <ReferenceField label="Product" source="product.id" reference="Product">
           <TextField source={PRODUCT_TITLE_FIELD} />
         </ReferenceField>
-        <TextField label="test" source="test" />
       </Datagrid>
     </List>
   );

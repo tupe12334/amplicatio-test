@@ -3,17 +3,17 @@
   "appInfo": {
     "name": "Sample app",
     "description": "Sample application for e-commerce",
-    "version": "on0q9bed",
-    "id": "ckt97jpb00046x1xhccuj7hhc",
-    "url": "http://localhost:3000/ckt97jpb00046x1xhccuj7hhc",
+    "version": "dydv1cd0",
+    "id": "cku9zo7um0132lhxhmnx933ye",
+    "url": "http://localhost:3000/cku9zo7um0132lhxhmnx933ye",
     "settings": {
       "dbHost": "localhost",
       "dbName": "",
       "dbPassword": "admin",
       "dbPort": 5432,
       "dbUser": "admin",
-      "appId": "ckt97jpb00046x1xhccuj7hhc",
-      "authProvider": "Jwt"
+      "appId": "cku9zo7um0132lhxhmnx933ye",
+      "authProvider": "Http"
     }
   }
 }

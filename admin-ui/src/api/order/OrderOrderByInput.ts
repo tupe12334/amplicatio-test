@@ -9,5 +9,4 @@ export type OrderOrderByInput = {
   totalPrice?: SortOrder;
   customerId?: SortOrder;
   productId?: SortOrder;
-  test?: SortOrder;
 };
