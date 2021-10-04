@@ -7,5 +7,4 @@ export type OrderUpdateInput = {
   totalPrice?: number | null;
   customer?: CustomerWhereUniqueInput | null;
   product?: ProductWhereUniqueInput | null;
-  test?: string | null;
 };

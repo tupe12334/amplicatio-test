@@ -55,7 +55,6 @@ export const CustomerShow = (props: ShowProps): React.ReactElement => {
             >
               <TextField source={PRODUCT_TITLE_FIELD} />
             </ReferenceField>
-            <TextField label="test" source="test" />
           </Datagrid>
         </ReferenceManyField>
       </SimpleShowLayout>

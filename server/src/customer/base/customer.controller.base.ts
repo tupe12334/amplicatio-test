@@ -359,8 +359,6 @@ export class CustomerControllerBase {
             id: true,
           },
         },
-
-        test: true,
       },
     });
     return results.map((result) => permission.filter(result));
