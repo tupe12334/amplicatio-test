@@ -16,6 +16,7 @@ import { GraphQLModule } from "@nestjs/graphql";
 @Module({
   controllers: [],
   imports: [
+    //@ts-ignore
     UserModule,
     OrderModule,
     CustomerModule,
